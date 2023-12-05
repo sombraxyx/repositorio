@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciências da Natureza e suas Tecnologias</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+        }
+        header {
+            padding: 15px 4%;
+            position: fixed;
+            z-index: 1;
+            background-color: #000;
+            border-bottom: 1px solid white;
+            width: 100%;
+        }
+        header .titulo:hover,
+        header nav ul li:hover {
+            color: rgb(255, 98, 0);
+        }
+        header > .interface {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 10%;
+        }
+        header a {
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-decoration: none;
+            display: inline-block;
+        }
+        header a:hover {
+            color: white;
+        }
+        header nav ul {
+            list-style-type: none;
+        }
+        header nav ul li {
+            display: inline-block;
+            padding: 5px 25px;
+            font-size: 20px;
+            font-weight: 600;
+            border: 1px solid white;
+            border-radius: 30px;
+        }
+        .paragrafo {
+            font-size: 36px;
+            margin-top: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        header nav ul li:hover {
+            background: rgb(71, 21, 120);
+            border: 1px solid rgb(71, 21, 120);
+        }
+        body {
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+        }
+        .interface p {
+            font-family: Arial, sans-serif;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        #container {
+            padding-top: 4%;
+            margin: 0 4%;
+            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+            padding: 20px;
+        }
+        img {
+            width: 600px;
+            height: 400px;
+            border-radius: 30px;
+            border: 5px solid white;
+            margin: 20px 0;
+        }
+        .conteudo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        p {
+            width: 80%;
+            font-size: 24px;
+            text-align: justify;
+            margin: 20px 0;
+        }
+        span {
+            font-weight: bold;
+            color: rgb(255, 98, 0);
+        }
+        #carouselExample .carousel-inner img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <p class="titulo">Ciências da Natureza e suas Tecnologias</p>
+            <nav class="menu">
+                <ul>
+                    <li><a href="Linguagem.html">Linguagens</a></li>
+                    <li><a href="ProjetoAno.html">Projeto do Ano</a></li>
+                    <li><a href="CienciasH.html">Ciencias Humanas</a></li>
+                    <li><a href="TI.html">TI</a></li>
+                    <li><a href="Matematica.html">Matemática</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="container">
+        <div class="conteudo">
+            <p class="paragrafo">Meu Trabalho em Ciências da Natureza</p>
+            <img src="https://www.themoviedb.org/t/p/original/aNrcxmzCZc1Tgze4jOwJrwk7tCl.jpg" alt="Imagem da série The Boys">
+            <p>Eu gostava muito das atividades em grupo que fazíamos em Ciências da Natureza, pois elas eram meu ponto forte junto com matemática. Mesmo que às vezes eu não conseguisse fazer toda a atividade já que era em grupo. Eu achava muito divertido e curioso participar desses trabalhos.</p>
+            <p>O trabalho que mais gostei de fazer foi a integradora desse bimestre que consiste em uma atividade em grupo em que o grupo deve escolher um filme ou série. E com esse filme, o aluno deve citar onde se encontra Biologia, Física e Química na série, no nosso caso escolhemos uma série que amava, que era The Boys.</p>
+            <p>Basicamente, falamos um resumo sobre a série e colocamos elementos da série que têm uma grande ligação com as matérias dadas, como a inércia e o impacto causado pelo "Trem-Bala", super-herói da série, e etc.</p>
+        </div>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www.themoviedb.org/t/p/original/jRCmVf1bwmgYvxzpZTqVwY3VT5z.jpg" class="d-block w-100" alt="foto1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://svijetfilma.eu/wp-content/uploads/2018/10/maxresdefault-6.jpg" class="d-block w-100" alt="foto2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://th.bing.com/th/id/OIP.9culFfrxbed-0Nz19DNDWQAAAA?rs=1&pid=ImgDetMain" class="d-block w-100" alt="foto3">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js" crossorigin="anonymous"></script>
+<script type="importmap">
+    {
+        "imports": {
+            "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/esm/popper.min.js",
+            "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.esm.min.js"
+        }
+    }
+</script>
+<script type="module">
+    import * as bootstrap from 'bootstrap'
+
+    new bootstrap.Popover(document.getElementById('popoverButton'))
+</script>
+</body>
+</html>

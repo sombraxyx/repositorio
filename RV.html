@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realidade Virtual</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+        }
+        header{
+            padding: 15px 4%;
+            position: fixed;
+            z-index: 1;
+            background-color: #000;
+            border-bottom: 1px solid white;
+            width: 100%;
+        }
+        header .titulo:hover, header nav ul li:hover {
+            color: rgb(132, 0, 255);
+        }
+        header > .interface{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 10%;
+        }
+        header a{
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-decoration: none;
+            display: inline-block;
+        }
+        header a:hover{
+            color: white;
+        }
+        header nav ul{
+            list-style-type: none;
+        }
+        header nav ul li{
+            display: inline-block;
+            padding: 5px 25px;
+            font-size: 20px;
+            font-weight: 600;
+            border: 1px solid white;
+            border-radius: 30px;
+        }
+        .paragrafo {
+            font-size: 36px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        header nav ul li:hover{
+            background: rgb(71, 21, 120);
+            border: 1px solid rgb(71, 21, 120);
+        }
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }  
+        .interface p{
+            font-family: Arial, sans-serif;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        #container{
+            padding-top: 4%;
+            margin: 0 4%;
+            box-shadow: 0 2px 4px rgba(255, 255, 255);
+            padding: 20px;
+        }
+        img {
+            width: 600px;
+            height: 400px;
+            border-radius: 30px;
+            border: 5px solid white;
+        }
+        .conteudo{
+            margin-top: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        p{
+            width: 45%;
+            font-size: 30px;
+            text-align: justify;
+        }
+        span{
+            font-weight: bold;
+            color: rgb(132, 0, 255);
+        }
+        #segundo-p{
+            width: 100%;
+        }
+        .paragrafo{
+            width: 100%;
+            font-size: 45px;
+            margin-top: 40px;
+        }
+        #conteudo-2{
+            margin-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <p class="titulo">Realidade Virtual</p>
+            <nav class="menu">
+                <ul>
+                    <li><a href="CD.html">Ciência de Dados</a></li>
+                    <li><a href="IOT.html">Internet das Coisas</a></li>
+                    <li><a href="IA.html">Inteligência Artificial</a></li>
+                    <li><a href="RA.html">Realidade Aumentada</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="container">
+        <div class="conteudo">
+            <img src="https://th.bing.com/th/id/R.f2241ede40c2ba321c542c506d76ddf7?rik=CN%2fxHarM3r6%2bGA&pid=ImgRaw&r=0" alt="Imagem de Realidade Virtual">
+            <p>A <span>Realidade Virtual (RV)</span> é uma tecnologia que cria um ambiente simulado, proporcionando uma experiência imersiva aos usuários. Utiliza dispositivos como óculos VR para transportar os usuários para ambientes virtuais tridimensionais.</p>
+        </div>
+        <p class="paragrafo">Componentes chave da Realidade Virtual:</p>
+        <div class="conteudo" id="conteudo-2">
+            <p id="segundo-p"><span>Óculos de Realidade Virtual:</span> Os óculos VR são dispositivos usados para visualizar ambientes virtuais. Eles rastreiam os movimentos da cabeça e dos olhos para proporcionar uma experiência imersiva.
+            <br>
+            <br>
+            <span>Controladores:</span> Os controladores são dispositivos manuais que permitem aos usuários interagir com o ambiente virtual. Eles podem simular mãos ou objetos, proporcionando uma sensação de presença.
+            <br> 
+            <br>
+            <span>Simulação 3D:</span> A simulação 3D cria ambientes virtuais tridimensionais. Isso inclui gráficos avançados, efeitos sonoros e interações que tornam a experiência mais realista.
+            <br>
+            <br>
+            <span>Rastreamento de Movimento:</span> O rastreamento de movimento é essencial para acompanhar os movimentos do usuário no espaço virtual. Isso é feito por meio de sensores ou câmeras.
+            <br>
+            <br>
+            <span>Aplicações:</span> A RV é usada em diversas áreas, como jogos, treinamento, educação e terapia. Suas aplicações continuam a expandir à medida que a tecnologia evolui.</p>
+        </div>
+    </div>
+</body>
+</html>

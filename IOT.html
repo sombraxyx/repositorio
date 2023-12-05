@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet das Coisas</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+        }
+        header{
+            padding: 15px 4%;
+            position: fixed;
+            z-index: 1;
+            background-color: #000;
+            border-bottom: 1px solid white;
+            width: 100%;
+        }
+        header .titulo:hover, header nav ul li:hover {
+            color: rgb(0, 255, 128);
+        }
+        header > .interface{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 10%;
+        }
+        header a{
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-decoration: none;
+            display: inline-block;
+        }
+        header a:hover{
+            color: white;
+        }
+        header nav ul{
+            list-style-type: none;
+        }
+        header nav ul li{
+            display: inline-block;
+            padding: 5px 25px;
+            font-size: 20px;
+            font-weight: 600;
+            border: 1px solid white;
+            border-radius: 30px;
+        }
+        .paragrafo {
+            font-size: 36px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        header nav ul li:hover{
+            background: rgb(71, 21, 120);
+            border: 1px solid rgb(71, 21, 120);
+        }
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }  
+        .interface p{
+            font-family: Arial, sans-serif;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        #container{
+            padding-top: 4%;
+            margin: 0 4%;
+            box-shadow: 0 2px 4px rgba(255, 255, 255);
+            padding: 20px;
+        }
+        img {
+            width: 600px;
+            height: 400px;
+            border-radius: 30px;
+            border: 5px solid white;
+        }
+        .conteudo{
+            margin-top: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        p{
+            width: 45%;
+            font-size: 30px;
+            text-align: justify;
+        }
+        span{
+            font-weight: bold;
+            color: rgb(0, 255, 128);
+        }
+        #segundo-p{
+            width: 100%;
+        }
+        .paragrafo{
+            width: 100%;
+            font-size: 45px;
+            margin-top: 40px;
+        }
+        #conteudo-2{
+            margin-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <p class="titulo">Internet das Coisas</p>
+            <nav class="menu">
+                <ul>
+                    <li><a href="CD.html">Ciência de Dados</a></li>
+                    <li><a href="IA.html">Inteligência Artificial</a></li>
+                    <li><a href="RV.html">Realidade Virtual</a></li>
+                    <li><a href="RA.html">Realidade Aumentada</a></li>                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="container">
+        <div class="conteudo">
+            <img src="https://th.bing.com/th/id/OIP.GITE5Wv3nyWoZ6QvNKAO-wHaEh?rs=1&pid=ImgDetMain" alt="Imagem de Internet das Coisas">
+            <p>A <span>Internet das Coisas (IoT)</span> refere-se à interconexão de dispositivos físicos através da internet, permitindo a coleta e troca de dados. Esses dispositivos podem incluir sensores, veículos, eletrodomésticos e muito mais.</p>
+        </div>
+        <p class="paragrafo">Componentes chave da Internet das Coisas:</p>
+        <div class="conteudo" id="conteudo-2">
+            <p id="segundo-p"><span>Sensores e Dispositivos:</span> Os sensores são fundamentais na IoT, coletando dados do ambiente. Dispositivos como câmeras, sensores de temperatura e medidores são comuns.
+            <br>
+            <br>
+            <span>Conectividade:</span> A conectividade é essencial para a transmissão de dados entre dispositivos. Tecnologias como Wi-Fi, Bluetooth e redes celulares são frequentemente utilizadas.
+            <br> 
+            <br>
+            <span>Processamento de Dados:</span> O processamento de dados ocorre em dispositivos locais ou na nuvem. Algoritmos são aplicados para analisar e extrair informações úteis.
+            <br>
+            <br>
+            <span>Inteligência Artificial:</span> A IA desempenha um papel crucial na IoT, permitindo a automação e a tomada de decisões inteligentes com base nos dados coletados.
+            <br>
+            <br>
+            <span>Segurança:</span> A segurança é uma consideração fundamental. Mecanismos de segurança são implementados para proteger a privacidade e a integridade dos dados na IoT.</p>
+        </div>
+    </div>
+</body>
+</html>
